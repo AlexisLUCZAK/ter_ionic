@@ -1,0 +1,38 @@
+<ion-header >
+  <ion-toolbar>
+    <ion-title>
+      TER
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+  
+<ion-content>
+  <div padding>
+    <p text-justify>Application crée par Alexis LUCZAK pour tester la performance entre les framworks</p>
+    <p>Voici la liste des différentes frameworks comparés:</p>
+    <ul>
+      <li>Flutter</li>
+      <li>React Native</li>
+      <li>Ionic</li>
+    </ul>
+    <hr>
+    <p>Liste d'items servant pour les tests</p>
+    <ion-list>
+      <ion-list>
+        <ion-item *ngFor="let item of items">
+          <ion-row>
+            <ion-col size="7">
+              <img src="assets/fast_2.png">
+            </ion-col>
+            <ion-col size="5">
+              <ion-text>
+                <p>Team FAST</p>
+                <p>À jamais dans mon coeur !</p>
+              </ion-text>
+            </ion-col>
+          </ion-row>
+        </ion-item>
+      </ion-list>
+    </ion-list>
+  </div>
+</ion-content>
